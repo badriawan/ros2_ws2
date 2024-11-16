@@ -29,20 +29,25 @@ private:
     {
         // Mendapatkan jarak terdekat di depan robot
         float distance = std::numeric_limits<float>::infinity();
-        int index_center = msg->ranges.size() / 2;
+        // float distance = 0.0;
+        //int index_center = msg->ranges.size() / 2;
+        int index_center = 0;
+
 
         if (!std::isnan(msg->ranges[index_center]) && !std::isinf(msg->ranges[index_center])) {
             distance = msg->ranges[index_center];
         }
 
+        distance = *std::min_element(msg->ranges.begin() + 340, msg->ranges.begin() + 360);
+
         // Menghitung error jarak
-        float error = desired_distance_ - distance;
+        float error = distance - desired_distance_;
 
         // Menghitung gain berdasarkan error (gain scheduling non-linear)
         float kp = compute_gain(error);
 
-        // Kontrol proporsional dengan gain yang disesuaikan
         auto cmd_msg = geometry_msgs::msg::Twist();
+        // Kontrol proporsional dengan gain yang disesuaikan
         cmd_msg.linear.x = kp * error;
 
         // Batasi kecepatan maksimum
