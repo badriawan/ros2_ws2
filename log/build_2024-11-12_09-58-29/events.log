@@ -1,0 +1,50 @@
+[0.000000] (-) TimerEvent: {}
+[0.000370] (-) JobUnselected: {'identifier': 'mpc_package'}
+[0.000626] (-) JobUnselected: {'identifier': 'tb3_robot'}
+[0.000654] (-) JobUnselected: {'identifier': 'tb3_robot_bringup'}
+[0.000951] (casadi_mpc) JobQueued: {'identifier': 'casadi_mpc', 'dependencies': OrderedDict()}
+[0.001025] (casadi_mpc) JobStarted: {'identifier': 'casadi_mpc'}
+[0.099780] (-) TimerEvent: {}
+[0.200284] (-) TimerEvent: {}
+[0.300777] (-) TimerEvent: {}
+[0.401123] (-) TimerEvent: {}
+[0.501447] (-) TimerEvent: {}
+[0.601828] (-) TimerEvent: {}
+[0.702398] (-) TimerEvent: {}
+[0.803036] (-) TimerEvent: {}
+[0.903372] (-) TimerEvent: {}
+[1.003683] (-) TimerEvent: {}
+[1.104003] (-) TimerEvent: {}
+[1.204637] (-) TimerEvent: {}
+[1.305077] (-) TimerEvent: {}
+[1.310319] (casadi_mpc) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/casadi_mpc', 'build', '--build-base', '/home/badri/ros2_ws/build/casadi_mpc/build', 'install', '--record', '/home/badri/ros2_ws/build/casadi_mpc/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/badri/ros2_ws/src/casadi_mpc', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'badri', 'LC_TIME': 'id_ID.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/badri', 'OLDPWD': '/home/badri/ros2_ws/src/casadi_mpc', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'id_ID.UTF-8', 'MANAGERPID': '1015', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1439', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b9b2d035746a0c5ad7e466db6730658e', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/badri/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'badri', 'JOURNAL_STREAM': '8:6120', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'badri', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/badri/.local/bin:/opt/ros/humble/bin:/home/badri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/badris-Laptop:@/tmp/.ICE-unix/1439,unix/badris-Laptop:/tmp/.ICE-unix/1439', 'INVOCATION_ID': 'ff938c4368134ff18fd407ec80eac039', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'id_ID.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'id_ID.UTF-8', 'TILIX_ID': '45d7ca25-1203-4e64-b665-3b9380128ef1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/badri/ros2_ws/install/casadi_mpc:/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/home/badri/ros2_ws/install/mpc_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'id_ID.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'WEBOTS_HOME': '/usr/local/webots', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'id_ID.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'id_ID.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/badri/ros2_ws/build/casadi_mpc', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b9b2d035746a0c5ad7e466db6730658e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/badri/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/badri/ros2_ws/build/casadi_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages:/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'id_ID.UTF-8', 'LC_PAPER': 'id_ID.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/home/badri/ros2_ws/install/mpc_package'}, 'shell': False}
+[1.405171] (-) TimerEvent: {}
+[1.505502] (-) TimerEvent: {}
+[1.605846] (-) TimerEvent: {}
+[1.706156] (-) TimerEvent: {}
+[1.712682] (casadi_mpc) StdoutLine: {'line': b'running egg_info\n'}
+[1.713498] (casadi_mpc) StdoutLine: {'line': b'writing ../../build/casadi_mpc/casadi_mpc.egg-info/PKG-INFO\n'}
+[1.713780] (casadi_mpc) StdoutLine: {'line': b'writing dependency_links to ../../build/casadi_mpc/casadi_mpc.egg-info/dependency_links.txt\n'}
+[1.713948] (casadi_mpc) StdoutLine: {'line': b'writing entry points to ../../build/casadi_mpc/casadi_mpc.egg-info/entry_points.txt\n'}
+[1.714145] (casadi_mpc) StdoutLine: {'line': b'writing requirements to ../../build/casadi_mpc/casadi_mpc.egg-info/requires.txt\n'}
+[1.714368] (casadi_mpc) StdoutLine: {'line': b'writing top-level names to ../../build/casadi_mpc/casadi_mpc.egg-info/top_level.txt\n'}
+[1.716859] (casadi_mpc) StdoutLine: {'line': b"reading manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'\n"}
+[1.717200] (casadi_mpc) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.718027] (casadi_mpc) StdoutLine: {'line': b"writing manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'\n"}
+[1.718265] (casadi_mpc) StdoutLine: {'line': b'running build\n'}
+[1.718357] (casadi_mpc) StdoutLine: {'line': b'running build_py\n'}
+[1.718579] (casadi_mpc) StdoutLine: {'line': b'copying casadi_mpc/casadi_mpc.py -> /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc\n'}
+[1.718820] (casadi_mpc) StdoutLine: {'line': b'running install\n'}
+[1.719275] (casadi_mpc) StdoutLine: {'line': b'running install_lib\n'}
+[1.720368] (casadi_mpc) StdoutLine: {'line': b'copying /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc/casadi_mpc.py -> /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc\n'}
+[1.721216] (casadi_mpc) StdoutLine: {'line': b'byte-compiling /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc/casadi_mpc.py to casadi_mpc.cpython-310.pyc\n'}
+[1.723302] (casadi_mpc) StdoutLine: {'line': b'running install_data\n'}
+[1.723565] (casadi_mpc) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.726762] (casadi_mpc) StdoutLine: {'line': b"removing '/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.727127] (casadi_mpc) StdoutLine: {'line': b'Copying ../../build/casadi_mpc/casadi_mpc.egg-info to /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc-0.0.0-py3.10.egg-info\n'}
+[1.728252] (casadi_mpc) StdoutLine: {'line': b'running install_scripts\n'}
+[1.753411] (casadi_mpc) StdoutLine: {'line': b'Installing casadi_mpc script to /home/badri/ros2_ws/install/casadi_mpc/lib/casadi_mpc\n'}
+[1.753950] (casadi_mpc) StdoutLine: {'line': b"writing list of installed files to '/home/badri/ros2_ws/build/casadi_mpc/install.log'\n"}
+[1.784771] (casadi_mpc) CommandEnded: {'returncode': 0}
+[1.799781] (casadi_mpc) JobEnded: {'identifier': 'casadi_mpc', 'rc': 0}
+[1.800405] (-) EventReactorShutdown: {}

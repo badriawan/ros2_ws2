@@ -1,0 +1,57 @@
+[0.016s] Invoking command in '/home/badri/ros2_ws/build/tb3_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/tb3_robot -- -j8 -l8
+[0.054s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.209s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.245s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.253s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.306s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.411s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.466s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.494s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.510s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.514s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.600s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.602s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.604s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.612s] -- Found Protobuf: /usr/local/lib/libprotobuf.a (found version "3.21.12") 
+[0.620s] [0m/usr/local/lib/libprotobuf.a[0m
+[0.620s] [0m/usr/local/include[0m
+[0.697s] -- Configuring done
+[0.715s] -- Generating done
+[0.717s] -- Build files have been written to: /home/badri/ros2_ws/build/tb3_robot
+[0.751s] [35m[1mConsolidate compiler generated dependencies of target tb3_robot[0m
+[0.778s] [ 40%] [32mBuilding CXX object CMakeFiles/tb3_robot.dir/tb3_robot.cpp.o[0m
+[0.778s] [ 40%] [32mBuilding CXX object CMakeFiles/tb3_robot.dir/library/Agent_Subscriber.cpp.o[0m
+[0.778s] [ 60%] [32mBuilding CXX object CMakeFiles/tb3_robot.dir/library/message_vec.pb.cc.o[0m
+[8.275s] [ 80%] [32m[1mLinking CXX executable tb3_robot[0m
+[9.225s] [100%] Built target tb3_robot
+[9.237s] Invoked command in '/home/badri/ros2_ws/build/tb3_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/tb3_robot -- -j8 -l8
+[9.276s] Invoking command in '/home/badri/ros2_ws/build/tb3_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/badri/ros2_ws/build/tb3_robot
+[9.286s] -- Install configuration: ""
+[9.286s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/lib/tb3_robot/tb3_robot
+[9.293s] -- Set runtime path of "/home/badri/ros2_ws/install/tb3_robot/lib/tb3_robot/tb3_robot" to ""
+[9.294s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/config
+[9.294s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/config/provide_map.rviz
+[9.294s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/config/default_rviz.rviz
+[9.294s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/config/slam_config.yaml
+[9.294s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/config/my_map.yaml
+[9.295s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/config/my_map.pgm
+[9.295s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/ament_index/resource_index/package_run_dependencies/tb3_robot
+[9.295s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/ament_index/resource_index/parent_prefix_path/tb3_robot
+[9.295s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/environment/ament_prefix_path.sh
+[9.296s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/environment/ament_prefix_path.dsv
+[9.296s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/environment/path.sh
+[9.296s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/environment/path.dsv
+[9.296s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/local_setup.bash
+[9.297s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/local_setup.sh
+[9.297s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/local_setup.zsh
+[9.297s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/local_setup.dsv
+[9.297s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/package.dsv
+[9.298s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/ament_index/resource_index/packages/tb3_robot
+[9.298s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/cmake/tb3_robotConfig.cmake
+[9.298s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/cmake/tb3_robotConfig-version.cmake
+[9.298s] -- Installing: /home/badri/ros2_ws/install/tb3_robot/share/tb3_robot/package.xml
+[9.301s] Invoked command in '/home/badri/ros2_ws/build/tb3_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/badri/ros2_ws/build/tb3_robot

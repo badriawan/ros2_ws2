@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (-) JobUnselected: {'identifier': 'tb3_robot'}
+[0.000465] (-) JobUnselected: {'identifier': 'tb3_robot_bringup'}
+[0.000507] (mpc_package) JobQueued: {'identifier': 'mpc_package', 'dependencies': OrderedDict()}
+[0.000545] (mpc_package) JobStarted: {'identifier': 'mpc_package'}
+[0.012438] (mpc_package) JobProgress: {'identifier': 'mpc_package', 'progress': 'cmake'}
+[0.014975] (mpc_package) JobProgress: {'identifier': 'mpc_package', 'progress': 'build'}
+[0.015155] (mpc_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/badri/ros2_ws/build/mpc_package', '--', '-j8', '-l8'], 'cwd': '/home/badri/ros2_ws/build/mpc_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'badri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/badri'), ('OLDPWD', '/home/badri'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1015'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1439'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b9b2d035746a0c5ad7e466db6730658e'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/badri/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'badri'), ('JOURNAL_STREAM', '8:6120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'badri'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/badri/.local/bin:/opt/ros/humble/bin:/home/badri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/badris-Laptop:@/tmp/.ICE-unix/1439,unix/badris-Laptop:/tmp/.ICE-unix/1439'), ('INVOCATION_ID', 'ff938c4368134ff18fd407ec80eac039'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '45d7ca25-1203-4e64-b665-3b9380128ef1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/home/badri/ros2_ws/install/mpc_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/badri/ros2_ws/build/mpc_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b9b2d035746a0c5ad7e466db6730658e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/badri/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/home/badri/ros2_ws/install/mpc_package:/opt/ros/humble')]), 'shell': False}
+[0.099285] (-) TimerEvent: {}
+[0.101353] (mpc_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o\x1b[0m\n'}
+[0.199413] (-) TimerEvent: {}
+[0.299834] (-) TimerEvent: {}
+[0.400243] (-) TimerEvent: {}
+[0.500636] (-) TimerEvent: {}
+[0.600998] (-) TimerEvent: {}
+[0.701368] (-) TimerEvent: {}
+[0.801771] (-) TimerEvent: {}
+[0.902147] (-) TimerEvent: {}
+[1.002498] (-) TimerEvent: {}
+[1.102845] (-) TimerEvent: {}
+[1.203207] (-) TimerEvent: {}
+[1.303607] (-) TimerEvent: {}
+[1.403979] (-) TimerEvent: {}
+[1.504378] (-) TimerEvent: {}
+[1.604800] (-) TimerEvent: {}
+[1.705132] (-) TimerEvent: {}
+[1.805448] (-) TimerEvent: {}
+[1.905807] (-) TimerEvent: {}
+[2.006120] (-) TimerEvent: {}
+[2.106445] (-) TimerEvent: {}
+[2.206741] (-) TimerEvent: {}
+[2.307122] (-) TimerEvent: {}
+[2.407442] (-) TimerEvent: {}
+[2.507777] (-) TimerEvent: {}
+[2.608129] (-) TimerEvent: {}
+[2.708480] (-) TimerEvent: {}
+[2.808875] (-) TimerEvent: {}
+[2.909251] (-) TimerEvent: {}
+[3.009658] (-) TimerEvent: {}
+[3.109989] (-) TimerEvent: {}
+[3.210367] (-) TimerEvent: {}
+[3.310747] (-) TimerEvent: {}
+[3.411068] (-) TimerEvent: {}
+[3.511417] (-) TimerEvent: {}
+[3.611737] (-) TimerEvent: {}
+[3.712121] (-) TimerEvent: {}
+[3.812547] (-) TimerEvent: {}
+[3.914525] (-) TimerEvent: {}
+[4.014844] (-) TimerEvent: {}
+[4.115232] (-) TimerEvent: {}
+[4.215561] (-) TimerEvent: {}
+[4.315887] (-) TimerEvent: {}
+[4.416220] (-) TimerEvent: {}
+[4.516508] (-) TimerEvent: {}
+[4.616872] (-) TimerEvent: {}
+[4.717231] (-) TimerEvent: {}
+[4.817530] (-) TimerEvent: {}
+[4.917854] (-) TimerEvent: {}
+[5.018166] (-) TimerEvent: {}
+[5.118492] (-) TimerEvent: {}
+[5.218802] (-) TimerEvent: {}
+[5.319111] (-) TimerEvent: {}
+[5.419472] (-) TimerEvent: {}
+[5.519792] (-) TimerEvent: {}
+[5.620120] (-) TimerEvent: {}
+[5.720460] (-) TimerEvent: {}
+[5.820779] (-) TimerEvent: {}
+[5.921105] (-) TimerEvent: {}
+[6.021473] (-) TimerEvent: {}
+[6.121827] (-) TimerEvent: {}
+[6.222163] (-) TimerEvent: {}
+[6.322453] (-) TimerEvent: {}
+[6.422794] (-) TimerEvent: {}
+[6.523119] (-) TimerEvent: {}
+[6.623446] (-) TimerEvent: {}
+[6.723758] (-) TimerEvent: {}
+[6.824124] (-) TimerEvent: {}
+[6.924465] (-) TimerEvent: {}
+[7.024828] (-) TimerEvent: {}
+[7.125173] (-) TimerEvent: {}
+[7.225514] (-) TimerEvent: {}
+[7.325830] (-) TimerEvent: {}
+[7.426135] (-) TimerEvent: {}
+[7.526436] (-) TimerEvent: {}
+[7.626732] (-) TimerEvent: {}
+[7.727056] (-) TimerEvent: {}
+[7.827426] (-) TimerEvent: {}
+[7.927743] (-) TimerEvent: {}
+[8.028087] (-) TimerEvent: {}
+[8.128469] (-) TimerEvent: {}
+[8.228819] (-) TimerEvent: {}
+[8.329163] (-) TimerEvent: {}
+[8.429457] (-) TimerEvent: {}
+[8.529727] (-) TimerEvent: {}
+[8.630062] (-) TimerEvent: {}
+[8.730393] (-) TimerEvent: {}
+[8.830700] (-) TimerEvent: {}
+[8.930999] (-) TimerEvent: {}
+[9.031308] (-) TimerEvent: {}
+[9.131671] (-) TimerEvent: {}
+[9.231984] (-) TimerEvent: {}
+[9.332318] (-) TimerEvent: {}
+[9.432689] (-) TimerEvent: {}
+[9.533030] (-) TimerEvent: {}
+[9.633382] (-) TimerEvent: {}
+[9.733685] (-) TimerEvent: {}
+[9.834004] (-) TimerEvent: {}
+[9.934325] (-) TimerEvent: {}
+[10.034603] (-) TimerEvent: {}
+[10.134934] (-) TimerEvent: {}
+[10.235243] (-) TimerEvent: {}
+[10.335630] (-) TimerEvent: {}
+[10.435971] (-) TimerEvent: {}
+[10.536306] (-) TimerEvent: {}
+[10.636661] (-) TimerEvent: {}
+[10.737069] (-) TimerEvent: {}
+[10.837487] (-) TimerEvent: {}
+[10.938128] (-) TimerEvent: {}
+[11.038551] (-) TimerEvent: {}
+[11.138902] (-) TimerEvent: {}
+[11.239250] (-) TimerEvent: {}
+[11.339627] (-) TimerEvent: {}
+[11.432768] (mpc_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_node\x1b[0m\n'}
+[11.439718] (-) TimerEvent: {}
+[11.540139] (-) TimerEvent: {}
+[11.640892] (-) TimerEvent: {}
+[11.741558] (-) TimerEvent: {}
+[11.841960] (-) TimerEvent: {}
+[11.942318] (-) TimerEvent: {}
+[12.042725] (-) TimerEvent: {}
+[12.143100] (-) TimerEvent: {}
+[12.243446] (-) TimerEvent: {}
+[12.295657] (mpc_package) StdoutLine: {'line': b'[100%] Built target mpc_node\n'}
+[12.312753] (mpc_package) CommandEnded: {'returncode': 0}
+[12.343556] (-) TimerEvent: {}
+[12.384622] (mpc_package) JobProgress: {'identifier': 'mpc_package', 'progress': 'install'}
+[12.419914] (mpc_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/badri/ros2_ws/build/mpc_package'], 'cwd': '/home/badri/ros2_ws/build/mpc_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'badri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/badri'), ('OLDPWD', '/home/badri'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '1015'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1439'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b9b2d035746a0c5ad7e466db6730658e'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/badri/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'badri'), ('JOURNAL_STREAM', '8:6120'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'badri'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/badri/.local/bin:/opt/ros/humble/bin:/home/badri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/badris-Laptop:@/tmp/.ICE-unix/1439,unix/badris-Laptop:/tmp/.ICE-unix/1439'), ('INVOCATION_ID', 'ff938c4368134ff18fd407ec80eac039'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', '45d7ca25-1203-4e64-b665-3b9380128ef1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/home/badri/ros2_ws/install/mpc_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/badri/ros2_ws/build/mpc_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=b9b2d035746a0c5ad7e466db6730658e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/badri/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/home/badri/ros2_ws/install/mpc_package:/opt/ros/humble')]), 'shell': False}
+[12.443778] (-) TimerEvent: {}
+[12.455102] (mpc_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.456330] (mpc_package) StdoutLine: {'line': b'-- Installing: /home/badri/ros2_ws/install/mpc_package/lib/mpc_package/mpc_node\n'}
+[12.471700] (mpc_package) StdoutLine: {'line': b'-- Set runtime path of "/home/badri/ros2_ws/install/mpc_package/lib/mpc_package/mpc_node" to ""\n'}
+[12.472907] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/ament_index/resource_index/package_run_dependencies/mpc_package\n'}
+[12.473781] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/ament_index/resource_index/parent_prefix_path/mpc_package\n'}
+[12.474751] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/environment/ament_prefix_path.sh\n'}
+[12.475399] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/environment/ament_prefix_path.dsv\n'}
+[12.476109] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/environment/path.sh\n'}
+[12.476717] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/environment/path.dsv\n'}
+[12.477161] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/local_setup.bash\n'}
+[12.477643] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/local_setup.sh\n'}
+[12.478080] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/local_setup.zsh\n'}
+[12.478577] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/local_setup.dsv\n'}
+[12.479023] (mpc_package) StdoutLine: {'line': b'-- Installing: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/package.dsv\n'}
+[12.479465] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/ament_index/resource_index/packages/mpc_package\n'}
+[12.480054] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/cmake/mpc_packageConfig.cmake\n'}
+[12.480527] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/cmake/mpc_packageConfig-version.cmake\n'}
+[12.481838] (mpc_package) StdoutLine: {'line': b'-- Up-to-date: /home/badri/ros2_ws/install/mpc_package/share/mpc_package/package.xml\n'}
+[12.484832] (mpc_package) CommandEnded: {'returncode': 0}
+[12.544006] (-) TimerEvent: {}
+[12.644734] (-) TimerEvent: {}
+[12.685799] (mpc_package) JobEnded: {'identifier': 'mpc_package', 'rc': 0}
+[12.689758] (-) EventReactorShutdown: {}

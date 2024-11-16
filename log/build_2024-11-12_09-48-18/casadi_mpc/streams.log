@@ -1,0 +1,25 @@
+[1.080s] Invoking command in '/home/badri/ros2_ws/src/casadi_mpc': PYTHONPATH=/home/badri/ros2_ws/build/casadi_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/casadi_mpc build --build-base /home/badri/ros2_ws/build/casadi_mpc/build install --record /home/badri/ros2_ws/build/casadi_mpc/install.log --single-version-externally-managed install_data
+[1.455s] running egg_info
+[1.455s] writing ../../build/casadi_mpc/casadi_mpc.egg-info/PKG-INFO
+[1.456s] writing dependency_links to ../../build/casadi_mpc/casadi_mpc.egg-info/dependency_links.txt
+[1.456s] writing entry points to ../../build/casadi_mpc/casadi_mpc.egg-info/entry_points.txt
+[1.456s] writing requirements to ../../build/casadi_mpc/casadi_mpc.egg-info/requires.txt
+[1.456s] writing top-level names to ../../build/casadi_mpc/casadi_mpc.egg-info/top_level.txt
+[1.459s] reading manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'
+[1.459s] adding license file 'LICENSE'
+[1.460s] writing manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'
+[1.460s] running build
+[1.460s] running build_py
+[1.461s] copying casadi_mpc/casadi_mpc.py -> /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc
+[1.461s] running install
+[1.461s] running install_lib
+[1.462s] copying /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc/casadi_mpc.py -> /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc
+[1.463s] byte-compiling /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc/casadi_mpc.py to casadi_mpc.cpython-310.pyc
+[1.465s] running install_data
+[1.465s] running install_egg_info
+[1.469s] removing '/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc-0.0.0-py3.10.egg-info' (and everything under it)
+[1.469s] Copying ../../build/casadi_mpc/casadi_mpc.egg-info to /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc-0.0.0-py3.10.egg-info
+[1.470s] running install_scripts
+[1.499s] Installing casadi_mpc script to /home/badri/ros2_ws/install/casadi_mpc/lib/casadi_mpc
+[1.499s] writing list of installed files to '/home/badri/ros2_ws/build/casadi_mpc/install.log'
+[1.529s] Invoked command in '/home/badri/ros2_ws/src/casadi_mpc' returned '0': PYTHONPATH=/home/badri/ros2_ws/build/casadi_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/casadi_mpc build --build-base /home/badri/ros2_ws/build/casadi_mpc/build install --record /home/badri/ros2_ws/build/casadi_mpc/install.log --single-version-externally-managed install_data

@@ -1,0 +1,218 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/badri/ros2_ws/build/mpc_package
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o[0m
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:6:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcasadi[m[K’ is not a namespace-name
+    6 | using namespace [01;31m[Kcasadi[m[K;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ does not name a type
+  127 |     [01;31m[KSX[m[K x_, y_, theta_, v_, omega_;
+      |     [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[KFunction[m[K’ does not name a type; did you mean ‘[01m[Kunion[m[K’?
+  128 |     [01;31m[KFunction[m[K f_;
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kunion[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:129:5:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ does not name a type
+  129 |     [01;31m[KSX[m[K Q_, R_;
+      |     [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid MPCControllerNode::initializeMPC()[m[K’:
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:41:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   41 |         [01;31m[Kx_[m[K = SX::sym("x");
+      |         [01;31m[K^~[m[K
+      |         [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:41:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ has not been declared
+   41 |         x_ = [01;31m[KSX[m[K::sym("x");
+      |              [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:42:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   42 |         [01;31m[Ky_[m[K = SX::sym("y");
+      |         [01;31m[K^~[m[K
+      |         [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:42:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ has not been declared
+   42 |         y_ = [01;31m[KSX[m[K::sym("y");
+      |              [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_[m[K’ was not declared in this scope
+   43 |         [01;31m[Ktheta_[m[K = SX::sym("theta");
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:43:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ has not been declared
+   43 |         theta_ = [01;31m[KSX[m[K::sym("theta");
+      |                  [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kv_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   44 |         [01;31m[Kv_[m[K = SX::sym("v");
+      |         [01;31m[K^~[m[K
+      |         [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:44:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ has not been declared
+   44 |         v_ = [01;31m[KSX[m[K::sym("v");
+      |              [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Komega_[m[K’ was not declared in this scope
+   45 |         [01;31m[Komega_[m[K = SX::sym("omega");
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:45:18:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ has not been declared
+   45 |         omega_ = [01;31m[KSX[m[K::sym("omega");
+      |                  [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ was not declared in this scope
+   48 |         [01;31m[KSX[m[K rhs = SX::vertcat({
+      |         [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:52:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   52 |         }[01;31m[K)[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:53:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kf_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   53 |         [01;31m[Kf_[m[K = Function("f", {x_, y_, theta_, v_, omega_}, {rhs});
+      |         [01;31m[K^~[m[K
+      |         [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:53:59:[m[K [01;31m[Kerror: [m[K‘[01m[Krhs[m[K’ was not declared in this scope
+   53 |         f_ = Function("f", {x_, y_, theta_, v_, omega_}, {[01;31m[Krhs[m[K});
+      |                                                           [01;31m[K^~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:53:14:[m[K [01;31m[Kerror: [m[K‘[01m[KFunction[m[K’ was not declared in this scope; did you mean ‘[01m[Kunion[m[K’?
+   53 |         f_ = [01;31m[KFunction[m[K("f", {x_, y_, theta_, v_, omega_}, {rhs});
+      |              [01;31m[K^~~~~~~~[m[K
+      |              [32m[Kunion[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:56:9:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   56 |         [01;31m[KQ_[m[K = SX::diag(SX({10, 10, 1}));
+      |         [01;31m[K^~[m[K
+      |         [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:56:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ is not a class, namespace, or enumeration
+   56 |         Q_ = [01;31m[KSX[m[K::diag(SX({10, 10, 1}));
+      |              [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   57 |         [01;31m[KR_[m[K = SX::diag(SX({0.1, 0.1}));
+      |         [01;31m[K^~[m[K
+      |         [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:57:14:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ is not a class, namespace, or enumeration
+   57 |         R_ = [01;31m[KSX[m[K::diag(SX({0.1, 0.1}));
+      |              [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid MPCControllerNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:64:26:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   64 |         theta_current_ = [01;31m[Ktf2[m[K::getYaw(msg->pose.pose.orientation);
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:[m[K In member function ‘[01m[Kstd::map<std::__cxx11::basic_string<char>, double> MPCControllerNode::computeMPC(double, double, double)[m[K’:
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:80:9:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ was not declared in this scope
+   80 |         [01;31m[KSX[m[K X = SX::sym("X", 3, N_+1);
+      |         [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:81:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KU[m[K’
+   81 |         SX [01;31m[KU[m[K = SX::sym("U", 2, N_);
+      |            [01;31m[K^[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:83:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcost[m[K’
+   83 |         SX [01;31m[Kcost[m[K = 0;
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:84:23:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+   84 |         std::vector<SX[01;31m[K>[m[K constraints;
+      |                       [01;31m[K^[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kconstraints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   85 |         constraints.[01;31m[Kpush_back[m[K(X(Slice(), 0) - SX::vertcat({x_init, y_init, theta_init}));
+      |                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSlice[m[K’ was not declared in this scope
+   85 |         constraints.push_back(X([01;31m[KSlice[m[K(), 0) - SX::vertcat({x_init, y_init, theta_init}));
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:31:[m[K [01;31m[Kerror: [m[K‘[01m[KX[m[K’ was not declared in this scope
+   85 |         constraints.push_back([01;31m[KX[m[K(Slice(), 0) - SX::vertcat({x_init, y_init, theta_init}));
+      |                               [01;31m[K^[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:47:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ is not a class, namespace, or enumeration
+   85 |         constraints.push_back(X(Slice(), 0) - [01;31m[KSX[m[K::vertcat({x_init, y_init, theta_init}));
+      |                                               [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:88:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstate_error[m[K’
+   88 |             SX [01;31m[Kstate_error[m[K = X(Slice(), k) - SX::vertcat({x_target_, y_target_, theta_target_});
+      |                [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:88:95:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   88 | r = X(Slice(), k) - SX::vertcat({x_target_, y_target_, theta_target_}[01;31m[K)[m[K;
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:89:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcontrol_input[m[K’
+   89 |             SX [01;31m[Kcontrol_input[m[K = U(Slice(), k);
+      |                [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcost[m[K’ was not declared in this scope; did you mean ‘[01m[Kcosl[m[K’?
+   90 |             [01;31m[Kcost[m[K += SX::dot(state_error, Q_ * state_error) + SX::dot(control_input, R_ * control_input);
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kcosl[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:21:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ is not a class, namespace, or enumeration
+   90 |             cost += [01;31m[KSX[m[K::dot(state_error, Q_ * state_error) + SX::dot(control_input, R_ * control_input);
+      |                     [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_error[m[K’ was not declared in this scope; did you mean ‘[01m[Kstrerror[m[K’?
+   90 |             cost += SX::dot([01;31m[Kstate_error[m[K, Q_ * state_error) + SX::dot(control_input, R_ * control_input);
+      |                             [01;31m[K^~~~~~~~~~~[m[K
+      |                             [32m[Kstrerror[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:42:[m[K [01;31m[Kerror: [m[K‘[01m[KQ_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   90 |             cost += SX::dot(state_error, [01;31m[KQ_[m[K * state_error) + SX::dot(control_input, R_ * control_input);
+      |                                          [01;31m[K^~[m[K
+      |                                          [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:62:[m[K [01;31m[Kerror: [m[K‘[01m[KSX[m[K’ is not a class, namespace, or enumeration
+   90 |            cost += SX::dot(state_error, Q_ * state_error) + [01;31m[KSX[m[K::dot(control_input, R_ * control_input);
+      |                                                             [01;31m[K^~[m[K
+
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_input[m[K’ was not declared in this scope
+   90 |    cost += SX::dot(state_error, Q_ * state_error) + SX::dot([01;31m[Kcontrol_input[m[K, R_ * control_input);
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:85:[m[K [01;31m[Kerror: [m[K‘[01m[KR_[m[K’ was not declared in this scope; did you mean ‘[01m[KN_[m[K’?
+   90 | dot(state_error, Q_ * state_error) + SX::dot(control_input, [01;31m[KR_[m[K * control_input);
+      |                                                             [01;31m[K^~[m[K
+      |                                                             [32m[KN_[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:92:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kx_next[m[K’
+   92 |             SX [01;31m[Kx_next[m[K = f_(SXVector{X(0, k), X(1, k), X(2, k), U(0, k), U(1, k)})[0];
+      |                [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:92:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   92 |  x_next = f_(SXVector{X(0, k), X(1, k), X(2, k), U(0, k), U(1, k)}[01;31m[K)[m[K[0];
+      |                                                                   [01;31m[K^[m[K
+
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:93:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kconstraints[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   93 |             constraints.[01;31m[Kpush_back[m[K(X(Slice(), k+1) - x_next);
+      |                         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:93:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_next[m[K’ was not declared in this scope
+   93 |             constraints.push_back(X(Slice(), k+1) - [01;31m[Kx_next[m[K);
+      |                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[KSXDict[m[K’ was not declared in this scope
+   96 |         [01;31m[KSXDict[m[K nlp = {{"x", vertcat(X, U)}, {"f", cost}, {"g", vertcat(constraints)}};
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:97:9:[m[K [01;31m[Kerror: [m[K‘[01m[KFunction[m[K’ was not declared in this scope; did you mean ‘[01m[Kunion[m[K’?
+   97 |         [01;31m[KFunction[m[K solver = nlpsol("solver", "ipopt", nlp);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kunion[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:99:9:[m[K [01;31m[Kerror: [m[K‘[01m[KDM[m[K’ was not declared in this scope
+   99 |         [01;31m[KDM[m[K X_init = DM::zeros(3, N_+1);
+      |         [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:100:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KU_init[m[K’
+  100 |         DM [01;31m[KU_init[m[K = DM::zeros(2, N_);
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:102:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+  102 |         std::map<std::string, DM[01;31m[K>[m[K arg;
+      |                                 [01;31m[K^[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:103:29:[m[K [01;31m[Kerror: [m[K‘[01m[KX_init[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_init[m[K’?
+  103 |         arg["x0"] = vertcat([01;31m[KX_init[m[K, U_init);
+      |                             [01;31m[K^~~~~~[m[K
+      |                             [32m[Kx_init[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:103:37:[m[K [01;31m[Kerror: [m[K‘[01m[KU_init[m[K’ was not declared in this scope; did you mean ‘[01m[Kx_init[m[K’?
+  103 |         arg["x0"] = vertcat(X_init, [01;31m[KU_init[m[K);
+      |                                     [01;31m[K^~~~~~[m[K
+      |                                     [32m[Kx_init[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:103:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kvertcat[m[K’ was not declared in this scope
+  103 |         arg["x0"] = [01;31m[Kvertcat[m[K(X_init, U_init);
+      |                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:104:23:[m[K [01;31m[Kerror: [m[K‘[01m[KDM[m[K’ is not a class, namespace, or enumeration
+  104 |         arg["lbx"] = -[01;31m[KDM[m[K::inf(3, N_+1);
+      |                       [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:105:22:[m[K [01;31m[Kerror: [m[K‘[01m[KDM[m[K’ is not a class, namespace, or enumeration
+  105 |         arg["ubx"] = [01;31m[KDM[m[K::inf(3, N_+1);
+      |                      [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:106:22:[m[K [01;31m[Kerror: [m[K‘[01m[KDM[m[K’ is not a class, namespace, or enumeration
+  106 |         arg["lbg"] = [01;31m[KDM[m[K::zeros(3 * (N_ + 1));
+      |                      [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:107:22:[m[K [01;31m[Kerror: [m[K‘[01m[KDM[m[K’ is not a class, namespace, or enumeration
+  107 |         arg["ubg"] = [01;31m[KDM[m[K::zeros(3 * (N_ + 1));
+      |                      [01;31m[K^~[m[K
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:109:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksolver[m[K’ was not declared in this scope
+  109 |         auto result = [01;31m[Ksolver[m[K(arg);
+      |                       [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mpc_node.dir/build.make:76: CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

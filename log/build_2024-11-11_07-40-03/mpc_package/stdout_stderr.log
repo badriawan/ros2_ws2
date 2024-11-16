@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target mpc_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o[0m
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid MPCControllerNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:66:31:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   66 |         theta_current_ = tf2::[01;31m[KgetYaw[m[K(msg->pose.pose.orientation);
+      |                               [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mpc_node.dir/build.make:76: CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

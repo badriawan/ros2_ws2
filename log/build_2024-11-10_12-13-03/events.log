@@ -1,0 +1,297 @@
+[0.000000] (-) TimerEvent: {}
+[0.000264] (-) JobUnselected: {'identifier': 'tb3_robot'}
+[0.000327] (-) JobUnselected: {'identifier': 'tb3_robot_bringup'}
+[0.001226] (mpc_package) JobQueued: {'identifier': 'mpc_package', 'dependencies': OrderedDict()}
+[0.001419] (mpc_package) JobStarted: {'identifier': 'mpc_package'}
+[0.011200] (mpc_package) JobProgress: {'identifier': 'mpc_package', 'progress': 'cmake'}
+[0.011901] (mpc_package) JobProgress: {'identifier': 'mpc_package', 'progress': 'build'}
+[0.012619] (mpc_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/badri/ros2_ws/build/mpc_package', '--', '-j8', '-l8'], 'cwd': '/home/badri/ros2_ws/build/mpc_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'badri'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/local/webots/lib/controller:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/badri'), ('OLDPWD', '/home/badri'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('MANAGERPID', '992'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1424'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=36a9e6a4e662d3bba797272a67302061'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/badri/ros2_ws/install:/home/badri/ros2_project/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'badri'), ('JOURNAL_STREAM', '8:2848'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'badri'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/badri/.local/bin:/opt/ros/humble/bin:/home/badri/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/badris-Laptop:@/tmp/.ICE-unix/1424,unix/badris-Laptop:/tmp/.ICE-unix/1424'), ('INVOCATION_ID', 'bfd05be310d54214804deef5819e976e'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('TILIX_ID', 'dbe1d10d-4a67-4cca-9e8d-287f310335a7'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/badri/ros2_ws/install/mpc_package:/home/badri/ros2_project/install/mpc_package:/home/badri/ros2_project/install/sensor_fusion:/home/badri/ros2_project/install/robot_sensing:/home/badri/ros2_project/install/mapping:/home/badri/ros2_project/install/control_systems:/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('WEBOTS_HOME', '/usr/local/webots'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/badri/ros2_ws/build/mpc_package'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=36a9e6a4e662d3bba797272a67302061'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/badri/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/badri/ros2_ws/install/mpc_package:/home/badri/ros2_project/install/mpc_package:/home/badri/ros2_project/install/sensor_fusion:/home/badri/ros2_project/install/robot_sensing:/home/badri/ros2_project/install/mapping:/home/badri/ros2_project/install/control_systems:/home/badri/ros2_ws/install/tb3_robot_bringup:/home/badri/ros2_ws/install/tb3_robot:/opt/ros/humble')]), 'shell': False}
+[0.056116] (mpc_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099795] (-) TimerEvent: {}
+[0.200508] (-) TimerEvent: {}
+[0.301169] (-) TimerEvent: {}
+[0.402033] (-) TimerEvent: {}
+[0.502590] (-) TimerEvent: {}
+[0.518968] (mpc_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.558739] (mpc_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.563039] (mpc_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.575010] (mpc_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.598262] (mpc_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.602724] (-) TimerEvent: {}
+[0.629326] (mpc_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702900] (-) TimerEvent: {}
+[0.711849] (mpc_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.716130] (mpc_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.803041] (-) TimerEvent: {}
+[0.886561] (mpc_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.903152] (-) TimerEvent: {}
+[0.954122] (mpc_package) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.970966] (mpc_package) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.003279] (-) TimerEvent: {}
+[1.103609] (-) TimerEvent: {}
+[1.115277] (mpc_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.153320] (mpc_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.159278] (mpc_package) StdoutLine: {'line': b'-- Build files have been written to: /home/badri/ros2_ws/build/mpc_package\n'}
+[1.203828] (-) TimerEvent: {}
+[1.293469] (mpc_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o\x1b[0m\n'}
+[1.303978] (-) TimerEvent: {}
+[1.404734] (-) TimerEvent: {}
+[1.505311] (-) TimerEvent: {}
+[1.605924] (-) TimerEvent: {}
+[1.706509] (-) TimerEvent: {}
+[1.807036] (-) TimerEvent: {}
+[1.907374] (-) TimerEvent: {}
+[2.007712] (-) TimerEvent: {}
+[2.108086] (-) TimerEvent: {}
+[2.208425] (-) TimerEvent: {}
+[2.308761] (-) TimerEvent: {}
+[2.409116] (-) TimerEvent: {}
+[2.509465] (-) TimerEvent: {}
+[2.609794] (-) TimerEvent: {}
+[2.710166] (-) TimerEvent: {}
+[2.810493] (-) TimerEvent: {}
+[2.910830] (-) TimerEvent: {}
+[3.011197] (-) TimerEvent: {}
+[3.111558] (-) TimerEvent: {}
+[3.211909] (-) TimerEvent: {}
+[3.312288] (-) TimerEvent: {}
+[3.412617] (-) TimerEvent: {}
+[3.512988] (-) TimerEvent: {}
+[3.613370] (-) TimerEvent: {}
+[3.713750] (-) TimerEvent: {}
+[3.814064] (-) TimerEvent: {}
+[3.914445] (-) TimerEvent: {}
+[4.014838] (-) TimerEvent: {}
+[4.091712] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:6:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcasadi\x1b[m\x1b[K\xe2\x80\x99 is not a namespace-name\n'}
+[4.091929] (mpc_package) StderrLine: {'line': b'    6 | using namespace \x1b[01;31m\x1b[Kcasadi\x1b[m\x1b[K;\n'}
+[4.092028] (mpc_package) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.114979] (-) TimerEvent: {}
+[4.142258] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:127:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.142460] (mpc_package) StderrLine: {'line': b'  127 |     \x1b[01;31m\x1b[KSX\x1b[m\x1b[K x_, y_, theta_, v_, omega_;\n'}
+[4.142546] (mpc_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.143981] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:128:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFunction\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kunion\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.144142] (mpc_package) StderrLine: {'line': b'  128 |     \x1b[01;31m\x1b[KFunction\x1b[m\x1b[K f_;\n'}
+[4.144228] (mpc_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.144306] (mpc_package) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kunion\x1b[m\x1b[K\n'}
+[4.144985] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:129:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.145122] (mpc_package) StderrLine: {'line': b'  129 |     \x1b[01;31m\x1b[KSX\x1b[m\x1b[K Q_, R_;\n'}
+[4.145206] (mpc_package) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.168928] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MPCControllerNode::initializeMPC()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.169173] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:41:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.169260] (mpc_package) StderrLine: {'line': b'   41 |         \x1b[01;31m\x1b[Kx_\x1b[m\x1b[K = SX::sym("x");\n'}
+[4.169336] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.169407] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.169477] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:41:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.169548] (mpc_package) StderrLine: {'line': b'   41 |         x_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::sym("x");\n'}
+[4.169617] (mpc_package) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.172646] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:42:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.172797] (mpc_package) StderrLine: {'line': b'   42 |         \x1b[01;31m\x1b[Ky_\x1b[m\x1b[K = SX::sym("y");\n'}
+[4.172874] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.172943] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.173039] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:42:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.173129] (mpc_package) StderrLine: {'line': b'   42 |         y_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::sym("y");\n'}
+[4.173193] (mpc_package) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.177559] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:43:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktheta_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.177721] (mpc_package) StderrLine: {'line': b'   43 |         \x1b[01;31m\x1b[Ktheta_\x1b[m\x1b[K = SX::sym("theta");\n'}
+[4.177798] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.177865] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:43:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.177933] (mpc_package) StderrLine: {'line': b'   43 |         theta_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::sym("theta");\n'}
+[4.178026] (mpc_package) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.181436] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:44:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kv_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.181585] (mpc_package) StderrLine: {'line': b'   44 |         \x1b[01;31m\x1b[Kv_\x1b[m\x1b[K = SX::sym("v");\n'}
+[4.181658] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.181724] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.181788] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:44:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.181860] (mpc_package) StderrLine: {'line': b'   44 |         v_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::sym("v");\n'}
+[4.181923] (mpc_package) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.186501] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:45:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Komega_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.186621] (mpc_package) StderrLine: {'line': b'   45 |         \x1b[01;31m\x1b[Komega_\x1b[m\x1b[K = SX::sym("omega");\n'}
+[4.186694] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.186761] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:45:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.186828] (mpc_package) StderrLine: {'line': b'   45 |         omega_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::sym("omega");\n'}
+[4.186891] (mpc_package) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.190373] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:48:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.190488] (mpc_package) StderrLine: {'line': b'   48 |         \x1b[01;31m\x1b[KSX\x1b[m\x1b[K rhs = SX::vertcat({\n'}
+[4.190561] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.190626] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:52:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.190705] (mpc_package) StderrLine: {'line': b'   52 |         }\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.190768] (mpc_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.194179] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:53:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kf_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.194299] (mpc_package) StderrLine: {'line': b'   53 |         \x1b[01;31m\x1b[Kf_\x1b[m\x1b[K = Function("f", {x_, y_, theta_, v_, omega_}, {rhs});\n'}
+[4.194372] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.194438] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.198173] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:53:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krhs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.198289] (mpc_package) StderrLine: {'line': b'   53 |         f_ = Function("f", {x_, y_, theta_, v_, omega_}, {\x1b[01;31m\x1b[Krhs\x1b[m\x1b[K});\n'}
+[4.198365] (mpc_package) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.203241] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:53:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFunction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kunion\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.203394] (mpc_package) StderrLine: {'line': b'   53 |         f_ = \x1b[01;31m\x1b[KFunction\x1b[m\x1b[K("f", {x_, y_, theta_, v_, omega_}, {rhs});\n'}
+[4.203473] (mpc_package) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.203557] (mpc_package) StderrLine: {'line': b'      |              \x1b[32m\x1b[Kunion\x1b[m\x1b[K\n'}
+[4.206791] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:56:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQ_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.206945] (mpc_package) StderrLine: {'line': b'   56 |         \x1b[01;31m\x1b[KQ_\x1b[m\x1b[K = SX::diag(SX({10, 10, 1}));\n'}
+[4.207033] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.207108] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.207177] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:56:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.207245] (mpc_package) StderrLine: {'line': b'   56 |         Q_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::diag(SX({10, 10, 1}));\n'}
+[4.207312] (mpc_package) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.210354] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KR_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.210516] (mpc_package) StderrLine: {'line': b'   57 |         \x1b[01;31m\x1b[KR_\x1b[m\x1b[K = SX::diag(SX({0.1, 0.1}));\n'}
+[4.210595] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.210666] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.210733] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:57:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.210802] (mpc_package) StderrLine: {'line': b'   57 |         R_ = \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::diag(SX({0.1, 0.1}));\n'}
+[4.210869] (mpc_package) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.212802] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MPCControllerNode::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.212955] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:64:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.213045] (mpc_package) StderrLine: {'line': b'   64 |         theta_current_ = \x1b[01;31m\x1b[Ktf2\x1b[m\x1b[K::getYaw(msg->pose.pose.orientation);\n'}
+[4.213119] (mpc_package) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.215052] (-) TimerEvent: {}
+[4.222213] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::map<std::__cxx11::basic_string<char>, double> MPCControllerNode::computeMPC(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.222420] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:80:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.222501] (mpc_package) StderrLine: {'line': b'   80 |         \x1b[01;31m\x1b[KSX\x1b[m\x1b[K X = SX::sym("X", 3, N_+1);\n'}
+[4.222573] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.222640] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:81:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KU\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.222718] (mpc_package) StderrLine: {'line': b'   81 |         SX \x1b[01;31m\x1b[KU\x1b[m\x1b[K = SX::sym("U", 2, N_);\n'}
+[4.222784] (mpc_package) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.222849] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:83:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kcost\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.222915] (mpc_package) StderrLine: {'line': b'   83 |         SX \x1b[01;31m\x1b[Kcost\x1b[m\x1b[K = 0;\n'}
+[4.222980] (mpc_package) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.223062] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:84:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[4.223131] (mpc_package) StderrLine: {'line': b'   84 |         std::vector<SX\x1b[01;31m\x1b[K>\x1b[m\x1b[K constraints;\n'}
+[4.223196] (mpc_package) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.223269] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpush_back\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kconstraints\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.223336] (mpc_package) StderrLine: {'line': b'   85 |         constraints.\x1b[01;31m\x1b[Kpush_back\x1b[m\x1b[K(X(Slice(), 0) - SX::vertcat({x_init, y_init, theta_init}));\n'}
+[4.223402] (mpc_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.226539] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSlice\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.226698] (mpc_package) StderrLine: {'line': b'   85 |         constraints.push_back(X(\x1b[01;31m\x1b[KSlice\x1b[m\x1b[K(), 0) - SX::vertcat({x_init, y_init, theta_init}));\n'}
+[4.226778] (mpc_package) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.230760] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KX\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.230963] (mpc_package) StderrLine: {'line': b'   85 |         constraints.push_back(\x1b[01;31m\x1b[KX\x1b[m\x1b[K(Slice(), 0) - SX::vertcat({x_init, y_init, theta_init}));\n'}
+[4.231062] (mpc_package) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.231137] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:85:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.231208] (mpc_package) StderrLine: {'line': b'   85 |         constraints.push_back(X(Slice(), 0) - \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::vertcat({x_init, y_init, theta_init}));\n'}
+[4.231276] (mpc_package) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.231344] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:88:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kstate_error\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.231425] (mpc_package) StderrLine: {'line': b'   88 |             SX \x1b[01;31m\x1b[Kstate_error\x1b[m\x1b[K = X(Slice(), k) - SX::vertcat({x_target_, y_target_, theta_target_});\n'}
+[4.231507] (mpc_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.231576] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:88:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.231643] (mpc_package) StderrLine: {'line': b'   88 | r = X(Slice(), k) - SX::vertcat({x_target_, y_target_, theta_target_}\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.231711] (mpc_package) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.231777] (mpc_package) StderrLine: {'line': b'\n'}
+[4.231843] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:89:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kcontrol_input\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.231910] (mpc_package) StderrLine: {'line': b'   89 |             SX \x1b[01;31m\x1b[Kcontrol_input\x1b[m\x1b[K = U(Slice(), k);\n'}
+[4.231977] (mpc_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.235307] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcost\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcosl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.235442] (mpc_package) StderrLine: {'line': b'   90 |             \x1b[01;31m\x1b[Kcost\x1b[m\x1b[K += SX::dot(state_error, Q_ * state_error) + SX::dot(control_input, R_ * control_input);\n'}
+[4.235522] (mpc_package) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.235594] (mpc_package) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcosl\x1b[m\x1b[K\n'}
+[4.235663] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.235745] (mpc_package) StderrLine: {'line': b'   90 |             cost += \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::dot(state_error, Q_ * state_error) + SX::dot(control_input, R_ * control_input);\n'}
+[4.235813] (mpc_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.241790] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstate_error\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstrerror\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.241922] (mpc_package) StderrLine: {'line': b'   90 |             cost += SX::dot(\x1b[01;31m\x1b[Kstate_error\x1b[m\x1b[K, Q_ * state_error) + SX::dot(control_input, R_ * control_input);\n'}
+[4.242011] (mpc_package) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.242090] (mpc_package) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kstrerror\x1b[m\x1b[K\n'}
+[4.246129] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQ_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.246290] (mpc_package) StderrLine: {'line': b'   90 |             cost += SX::dot(state_error, \x1b[01;31m\x1b[KQ_\x1b[m\x1b[K * state_error) + SX::dot(control_input, R_ * control_input);\n'}
+[4.246392] (mpc_package) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.246465] (mpc_package) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.246535] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSX\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.246613] (mpc_package) StderrLine: {'line': b'   90 |            cost += SX::dot(state_error, Q_ * state_error) + \x1b[01;31m\x1b[KSX\x1b[m\x1b[K::dot(control_input, R_ * control_input);\n'}
+[4.246681] (mpc_package) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.246748] (mpc_package) StderrLine: {'line': b'\n'}
+[4.254479] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcontrol_input\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.254649] (mpc_package) StderrLine: {'line': b'   90 |    cost += SX::dot(state_error, Q_ * state_error) + SX::dot(\x1b[01;31m\x1b[Kcontrol_input\x1b[m\x1b[K, R_ * control_input);\n'}
+[4.254735] (mpc_package) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.254804] (mpc_package) StderrLine: {'line': b'\n'}
+[4.258339] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:90:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KR_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KN_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.258671] (mpc_package) StderrLine: {'line': b'   90 | dot(state_error, Q_ * state_error) + SX::dot(control_input, \x1b[01;31m\x1b[KR_\x1b[m\x1b[K * control_input);\n'}
+[4.258770] (mpc_package) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.258840] (mpc_package) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[KN_\x1b[m\x1b[K\n'}
+[4.258907] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:92:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kx_next\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.258984] (mpc_package) StderrLine: {'line': b'   92 |             SX \x1b[01;31m\x1b[Kx_next\x1b[m\x1b[K = f_(SXVector{X(0, k), X(1, k), X(2, k), U(0, k), U(1, k)})[0];\n'}
+[4.259064] (mpc_package) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.259127] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:92:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.259190] (mpc_package) StderrLine: {'line': b'   92 |  x_next = f_(SXVector{X(0, k), X(1, k), X(2, k), U(0, k), U(1, k)}\x1b[01;31m\x1b[K)\x1b[m\x1b[K[0];\n'}
+[4.259252] (mpc_package) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.259313] (mpc_package) StderrLine: {'line': b'\n'}
+[4.259375] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:93:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kpush_back\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kconstraints\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.259448] (mpc_package) StderrLine: {'line': b'   93 |             constraints.\x1b[01;31m\x1b[Kpush_back\x1b[m\x1b[K(X(Slice(), k+1) - x_next);\n'}
+[4.259510] (mpc_package) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.263246] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:93:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_next\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.263391] (mpc_package) StderrLine: {'line': b'   93 |             constraints.push_back(X(Slice(), k+1) - \x1b[01;31m\x1b[Kx_next\x1b[m\x1b[K);\n'}
+[4.263463] (mpc_package) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.268158] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:96:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSXDict\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.268308] (mpc_package) StderrLine: {'line': b'   96 |         \x1b[01;31m\x1b[KSXDict\x1b[m\x1b[K nlp = {{"x", vertcat(X, U)}, {"f", cost}, {"g", vertcat(constraints)}};\n'}
+[4.268382] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.273362] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:97:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFunction\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kunion\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.273524] (mpc_package) StderrLine: {'line': b'   97 |         \x1b[01;31m\x1b[KFunction\x1b[m\x1b[K solver = nlpsol("solver", "ipopt", nlp);\n'}
+[4.273597] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.273664] (mpc_package) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kunion\x1b[m\x1b[K\n'}
+[4.277155] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:99:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDM\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.277290] (mpc_package) StderrLine: {'line': b'   99 |         \x1b[01;31m\x1b[KDM\x1b[m\x1b[K X_init = DM::zeros(3, N_+1);\n'}
+[4.277363] (mpc_package) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.277428] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:100:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[KU_init\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.277493] (mpc_package) StderrLine: {'line': b'  100 |         DM \x1b[01;31m\x1b[KU_init\x1b[m\x1b[K = DM::zeros(2, N_);\n'}
+[4.277555] (mpc_package) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.277618] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:102:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[4.277680] (mpc_package) StderrLine: {'line': b'  102 |         std::map<std::string, DM\x1b[01;31m\x1b[K>\x1b[m\x1b[K arg;\n'}
+[4.277742] (mpc_package) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.281389] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:103:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KX_init\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kx_init\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.281534] (mpc_package) StderrLine: {'line': b'  103 |         arg["x0"] = vertcat(\x1b[01;31m\x1b[KX_init\x1b[m\x1b[K, U_init);\n'}
+[4.281606] (mpc_package) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.281689] (mpc_package) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kx_init\x1b[m\x1b[K\n'}
+[4.285710] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:103:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KU_init\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kx_init\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.285830] (mpc_package) StderrLine: {'line': b'  103 |         arg["x0"] = vertcat(X_init, \x1b[01;31m\x1b[KU_init\x1b[m\x1b[K);\n'}
+[4.285902] (mpc_package) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.285969] (mpc_package) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kx_init\x1b[m\x1b[K\n'}
+[4.290781] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:103:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvertcat\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.290915] (mpc_package) StderrLine: {'line': b'  103 |         arg["x0"] = \x1b[01;31m\x1b[Kvertcat\x1b[m\x1b[K(X_init, U_init);\n'}
+[4.291025] (mpc_package) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.291123] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:104:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDM\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.291189] (mpc_package) StderrLine: {'line': b'  104 |         arg["lbx"] = -\x1b[01;31m\x1b[KDM\x1b[m\x1b[K::inf(3, N_+1);\n'}
+[4.291251] (mpc_package) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.291312] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:105:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDM\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.291375] (mpc_package) StderrLine: {'line': b'  105 |         arg["ubx"] = \x1b[01;31m\x1b[KDM\x1b[m\x1b[K::inf(3, N_+1);\n'}
+[4.291436] (mpc_package) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.291497] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:106:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDM\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.291559] (mpc_package) StderrLine: {'line': b'  106 |         arg["lbg"] = \x1b[01;31m\x1b[KDM\x1b[m\x1b[K::zeros(3 * (N_ + 1));\n'}
+[4.291621] (mpc_package) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.291682] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:107:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDM\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[4.291744] (mpc_package) StderrLine: {'line': b'  107 |         arg["ubg"] = \x1b[01;31m\x1b[KDM\x1b[m\x1b[K::zeros(3 * (N_ + 1));\n'}
+[4.291806] (mpc_package) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[4.295742] (mpc_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/badri/ros2_ws/src/mpc_package/src/mpc_node.cpp:109:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksolver\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.295884] (mpc_package) StderrLine: {'line': b'  109 |         auto result = \x1b[01;31m\x1b[Ksolver\x1b[m\x1b[K(arg);\n'}
+[4.295953] (mpc_package) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.315197] (-) TimerEvent: {}
+[4.415550] (-) TimerEvent: {}
+[4.515903] (-) TimerEvent: {}
+[4.616265] (-) TimerEvent: {}
+[4.716623] (-) TimerEvent: {}
+[4.816957] (-) TimerEvent: {}
+[4.917340] (-) TimerEvent: {}
+[5.017685] (-) TimerEvent: {}
+[5.118053] (-) TimerEvent: {}
+[5.218406] (-) TimerEvent: {}
+[5.318766] (-) TimerEvent: {}
+[5.419089] (-) TimerEvent: {}
+[5.519424] (-) TimerEvent: {}
+[5.619773] (-) TimerEvent: {}
+[5.720145] (-) TimerEvent: {}
+[5.820499] (-) TimerEvent: {}
+[5.920841] (-) TimerEvent: {}
+[6.021175] (-) TimerEvent: {}
+[6.121522] (-) TimerEvent: {}
+[6.221862] (-) TimerEvent: {}
+[6.322247] (-) TimerEvent: {}
+[6.422576] (-) TimerEvent: {}
+[6.522938] (-) TimerEvent: {}
+[6.623295] (-) TimerEvent: {}
+[6.723612] (-) TimerEvent: {}
+[6.823964] (-) TimerEvent: {}
+[6.827878] (mpc_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mpc_node.dir/build.make:76: CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o] Error 1\n'}
+[6.828274] (mpc_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mpc_node.dir/all] Error 2\n'}
+[6.828663] (mpc_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.831237] (mpc_package) CommandEnded: {'returncode': 2}
+[6.879890] (mpc_package) JobEnded: {'identifier': 'mpc_package', 'rc': 2}
+[6.890751] (-) EventReactorShutdown: {}
