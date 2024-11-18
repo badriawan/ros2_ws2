@@ -21,12 +21,17 @@ find_package(tf2_geometry_msgs REQUIRED)
 
 # Add your executable
 add_executable(gain_schedulling src/gain_schedulling.cpp)
+add_executable(binary_search src/binary_search.cpp)
+
 
 # Link against ROS 2 dependencies
 ament_target_dependencies(gain_schedulling rclcpp sensor_msgs geometry_msgs)
+ament_target_dependencies(binary_search rclcpp sensor_msgs)
+
 
 # Install
 install(TARGETS gain_schedulling
+  binary_search
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

@@ -210,6 +210,43 @@ gain_schedulling/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gain_schedulling.dir/build.make CMakeFiles/gain_schedulling.dir/build
 .PHONY : gain_schedulling/fast
 
+#=============================================================================
+# Target rules for targets named binary_search
+
+# Build rule for target.
+binary_search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binary_search
+.PHONY : binary_search
+
+# fast build rule for target.
+binary_search/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/build
+.PHONY : binary_search/fast
+
+src/binary_search.o: src/binary_search.cpp.o
+.PHONY : src/binary_search.o
+
+# target to build an object file
+src/binary_search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/binary_search.cpp.o
+.PHONY : src/binary_search.cpp.o
+
+src/binary_search.i: src/binary_search.cpp.i
+.PHONY : src/binary_search.i
+
+# target to preprocess a source file
+src/binary_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/binary_search.cpp.i
+.PHONY : src/binary_search.cpp.i
+
+src/binary_search.s: src/binary_search.cpp.s
+.PHONY : src/binary_search.s
+
+# target to generate assembly for a file
+src/binary_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/binary_search.dir/build.make CMakeFiles/binary_search.dir/src/binary_search.cpp.s
+.PHONY : src/binary_search.cpp.s
+
 src/gain_schedulling.o: src/gain_schedulling.cpp.o
 .PHONY : src/gain_schedulling.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... gain_sch_uninstall"
 	@echo "... uninstall"
+	@echo "... binary_search"
 	@echo "... gain_schedulling"
+	@echo "... src/binary_search.o"
+	@echo "... src/binary_search.i"
+	@echo "... src/binary_search.s"
 	@echo "... src/gain_schedulling.o"
 	@echo "... src/gain_schedulling.i"
 	@echo "... src/gain_schedulling.s"

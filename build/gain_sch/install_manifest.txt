@@ -1,4 +1,5 @@
 /home/badri/ros2_ws/install/gain_sch/lib/gain_sch/gain_schedulling
+/home/badri/ros2_ws/install/gain_sch/lib/gain_sch/binary_search
 /home/badri/ros2_ws/install/gain_sch/share/ament_index/resource_index/package_run_dependencies/gain_sch
 /home/badri/ros2_ws/install/gain_sch/share/ament_index/resource_index/parent_prefix_path/gain_sch
 /home/badri/ros2_ws/install/gain_sch/share/gain_sch/environment/ament_prefix_path.sh
