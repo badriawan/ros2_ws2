@@ -1,0 +1,28 @@
+[0.684s] Invoking command in '/home/badri/ros2_ws/build/gain_sch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/gain_sch -- -j8 -l8
+[0.768s] [35m[1mConsolidate compiler generated dependencies of target binary_search[0m
+[0.794s] [ 50%] Built target gain_schedulling
+[0.802s] [ 75%] [32mBuilding CXX object CMakeFiles/binary_search.dir/src/binary_search.cpp.o[0m
+[13.594s] [100%] [32m[1mLinking CXX executable binary_search[0m
+[14.214s] [100%] Built target binary_search
+[14.232s] Invoked command in '/home/badri/ros2_ws/build/gain_sch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/gain_sch -- -j8 -l8
+[14.299s] Invoking command in '/home/badri/ros2_ws/build/gain_sch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --install /home/badri/ros2_ws/build/gain_sch
+[14.335s] -- Install configuration: ""
+[14.336s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/lib/gain_sch/gain_schedulling
+[14.338s] -- Installing: /home/badri/ros2_ws/install/gain_sch/lib/gain_sch/binary_search
+[14.362s] -- Set runtime path of "/home/badri/ros2_ws/install/gain_sch/lib/gain_sch/binary_search" to ""
+[14.363s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/ament_index/resource_index/package_run_dependencies/gain_sch
+[14.364s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/ament_index/resource_index/parent_prefix_path/gain_sch
+[14.365s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/environment/ament_prefix_path.sh
+[14.365s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/environment/ament_prefix_path.dsv
+[14.366s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/environment/path.sh
+[14.366s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/environment/path.dsv
+[14.367s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/local_setup.bash
+[14.368s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/local_setup.sh
+[14.368s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/local_setup.zsh
+[14.369s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/local_setup.dsv
+[14.369s] -- Installing: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/package.dsv
+[14.370s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/ament_index/resource_index/packages/gain_sch
+[14.370s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/cmake/gain_schConfig.cmake
+[14.371s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/cmake/gain_schConfig-version.cmake
+[14.372s] -- Up-to-date: /home/badri/ros2_ws/install/gain_sch/share/gain_sch/package.xml
+[14.377s] Invoked command in '/home/badri/ros2_ws/build/gain_sch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --install /home/badri/ros2_ws/build/gain_sch
