@@ -1,0 +1,4 @@
+source;share/gain_sch/local_setup.bash
+source;share/gain_sch/local_setup.dsv
+source;share/gain_sch/local_setup.sh
+source;share/gain_sch/local_setup.zsh

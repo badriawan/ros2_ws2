@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[ 25%] Built target turtlebot3_drive
+[35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m

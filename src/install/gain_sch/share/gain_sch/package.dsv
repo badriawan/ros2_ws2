@@ -1,0 +1,8 @@
+source;share/gain_sch/hook/cmake_prefix_path.ps1
+source;share/gain_sch/hook/cmake_prefix_path.dsv
+source;share/gain_sch/hook/cmake_prefix_path.sh
+source;share/gain_sch/local_setup.bash
+source;share/gain_sch/local_setup.dsv
+source;share/gain_sch/local_setup.ps1
+source;share/gain_sch/local_setup.sh
+source;share/gain_sch/local_setup.zsh

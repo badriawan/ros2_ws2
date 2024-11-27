@@ -1,0 +1,38 @@
+[1.339s] Invoking command in '/home/badri/ros2_ws/src/casadi_mpc': PYTHONPATH=/home/badri/ros2_ws/build/casadi_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/casadi_mpc build --build-base /home/badri/ros2_ws/build/casadi_mpc/build install --record /home/badri/ros2_ws/build/casadi_mpc/install.log --single-version-externally-managed install_data
+[1.731s] running egg_info
+[1.732s] creating ../../build/casadi_mpc/casadi_mpc.egg-info
+[1.732s] writing ../../build/casadi_mpc/casadi_mpc.egg-info/PKG-INFO
+[1.732s] writing dependency_links to ../../build/casadi_mpc/casadi_mpc.egg-info/dependency_links.txt
+[1.732s] writing entry points to ../../build/casadi_mpc/casadi_mpc.egg-info/entry_points.txt
+[1.733s] writing requirements to ../../build/casadi_mpc/casadi_mpc.egg-info/requires.txt
+[1.733s] writing top-level names to ../../build/casadi_mpc/casadi_mpc.egg-info/top_level.txt
+[1.733s] writing manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'
+[1.736s] reading manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'
+[1.736s] adding license file 'LICENSE'
+[1.737s] writing manifest file '../../build/casadi_mpc/casadi_mpc.egg-info/SOURCES.txt'
+[1.737s] running build
+[1.737s] running build_py
+[1.738s] creating /home/badri/ros2_ws/build/casadi_mpc/build
+[1.738s] creating /home/badri/ros2_ws/build/casadi_mpc/build/lib
+[1.738s] creating /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc
+[1.739s] copying casadi_mpc/__init__.py -> /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc
+[1.739s] copying casadi_mpc/casadi_mpc.py -> /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc
+[1.739s] running install
+[1.739s] running install_lib
+[1.740s] creating /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc
+[1.740s] copying /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc/__init__.py -> /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc
+[1.740s] copying /home/badri/ros2_ws/build/casadi_mpc/build/lib/casadi_mpc/casadi_mpc.py -> /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc
+[1.741s] byte-compiling /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc/__init__.py to __init__.cpython-310.pyc
+[1.741s] byte-compiling /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc/casadi_mpc.py to casadi_mpc.cpython-310.pyc
+[1.744s] running install_data
+[1.744s] creating /home/badri/ros2_ws/install/casadi_mpc/share/ament_index
+[1.744s] creating /home/badri/ros2_ws/install/casadi_mpc/share/ament_index/resource_index
+[1.745s] creating /home/badri/ros2_ws/install/casadi_mpc/share/ament_index/resource_index/packages
+[1.745s] copying resource/casadi_mpc -> /home/badri/ros2_ws/install/casadi_mpc/share/ament_index/resource_index/packages
+[1.745s] copying package.xml -> /home/badri/ros2_ws/install/casadi_mpc/share/casadi_mpc
+[1.745s] running install_egg_info
+[1.749s] Copying ../../build/casadi_mpc/casadi_mpc.egg-info to /home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages/casadi_mpc-0.0.0-py3.10.egg-info
+[1.750s] running install_scripts
+[1.780s] Installing casadi_mpc script to /home/badri/ros2_ws/install/casadi_mpc/lib/casadi_mpc
+[1.780s] writing list of installed files to '/home/badri/ros2_ws/build/casadi_mpc/install.log'
+[1.820s] Invoked command in '/home/badri/ros2_ws/src/casadi_mpc' returned '0': PYTHONPATH=/home/badri/ros2_ws/build/casadi_mpc/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/badri/ros2_ws/install/casadi_mpc/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/casadi_mpc build --build-base /home/badri/ros2_ws/build/casadi_mpc/build install --record /home/badri/ros2_ws/build/casadi_mpc/install.log --single-version-externally-managed install_data

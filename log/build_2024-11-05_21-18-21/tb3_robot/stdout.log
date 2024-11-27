@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target tb3_robot[0m
-[ 40%] [32mBuilding CXX object CMakeFiles/tb3_robot.dir/library/Agent_Subscriber.cpp.o[0m
-[ 40%] [32mBuilding CXX object CMakeFiles/tb3_robot.dir/tb3_robot.cpp.o[0m
-[ 60%] [32mBuilding CXX object CMakeFiles/tb3_robot.dir/library/message_vec.pb.cc.o[0m
-[ 80%] [32m[1mLinking CXX executable tb3_robot[0m

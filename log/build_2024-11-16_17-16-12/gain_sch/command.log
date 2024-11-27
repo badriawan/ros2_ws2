@@ -1,4 +1,0 @@
-Invoking command in '/home/badri/ros2_ws/build/gain_sch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/gain_sch -- -j8 -l8
-Invoked command in '/home/badri/ros2_ws/build/gain_sch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/gain_sch -- -j8 -l8
-Invoking command in '/home/badri/ros2_ws/build/gain_sch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --install /home/badri/ros2_ws/build/gain_sch
-Invoked command in '/home/badri/ros2_ws/build/gain_sch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/badri/ros2_ws/install/casadi_mpc:/opt/ros/humble /usr/bin/cmake --install /home/badri/ros2_ws/build/gain_sch

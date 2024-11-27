@@ -299,7 +299,7 @@ Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 SITE:STRING=badris-Laptop
 
 //The directory containing a CMake configuration file for TinyXML2.
-TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
+TinyXML2_DIR:PATH=/usr/local/lib/cmake/tinyxml2
 
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so

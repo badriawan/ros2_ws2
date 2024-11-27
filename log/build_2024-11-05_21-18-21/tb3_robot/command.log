@@ -1,2 +1,0 @@
-Invoking command in '/home/badri/ros2_ws/build/tb3_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/tb3_robot -- -j8 -l8
-Invoked command in '/home/badri/ros2_ws/build/tb3_robot' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/badri/ros2_ws/build/tb3_robot -- -j8 -l8
